@@ -1,3 +1,6 @@
-.nav-brand {
-	color: white;
+.navbar-inverse .navbar-brand:hover  {
+ color: #0066ff;
+}
+.navbar-inverse .navbar-nav .active a:hover {
+	color: #0066ff;
 }
