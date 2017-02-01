@@ -4,3 +4,7 @@
 .navbar-inverse .navbar-nav .active a:hover {
 	color: #0066ff;
 }
+.col-md-3 img{
+	width: 100%;
+	padding:5px;
+}
