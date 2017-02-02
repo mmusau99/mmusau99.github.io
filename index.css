@@ -40,17 +40,17 @@ padding-top: 0px;
 	border-style: solid;
 	border-color: #fffdfb;
 }
-.football-h img{
-	display: inline;
-	width:25px;
+.football-h span{
+	font-size: 15px;
 	padding-left: 5px;
+	color: #0066ff;
 }
 
 .football-h{
 	padding-top: 20px;
 }
 .music span {
-	font-size: 20px;
+	font-size: 15px;
 	padding-left: 5px;
 	color: #0066ff;
 }
@@ -60,4 +60,35 @@ padding-top: 0px;
 	border: 2px;
 	border-style: solid;
 	border-color: #fffdfb;
+}
+.mentions span{
+	font-size: 15px;
+	padding-left: 5px;
+	color: #0066ff;
+}
+#saint-h{
+	display: block;
+    margin: auto;
+    width: 40%;
+}
+.mentions{
+	background-color: white;
+	font
+}
+.mentions h2{
+	text-align: center;
+	color:#e7e7e8;
+	
+}
+#cover {
+	display: block;
+    margin: auto;
+    width: 20%;
+}
+.mentions p{
+	font-family: georgia;
+}
+.container-fluid .footer{
+	padding:30px;
+	display: block;
 }
