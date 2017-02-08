@@ -75,19 +75,29 @@ nav li a{
 	width:100%;
 border: 2px solid black;
 border-radius: 4px;
+padding: 5px 5px;
+margin: 8px 0; 
 }
 
 .sign-up input[type=text]{
 width: 100%
-padding: 12px 20px;
-margin: 8px 0;
 box-sizing: border-box;
-border: 2px solid red;
+border: 2px solid black;
 border-radius: 4px;
+
 
 }
 .submit input{
-	width:15%;
-	border-color: white;
-	color: white
+	width:17%;
+	border: 2px solid red;
+	color: black;
+	padding: 15 32px;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	background-color: white;
+}
+.sumbit input:hover{
+	border-color: red;
+	background-color: red;
 }
