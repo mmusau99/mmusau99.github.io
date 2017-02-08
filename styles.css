@@ -1,18 +1,19 @@
 nav ul{
 	list-style-type: none;
 	margin:0;
-	padding:0 0 40px 0;
+	padding:0;
 	overflow: hidden;
+
 
 
 }
 
 nav li {
-
 	display: inline;
 	font-size: 18px;
-	padding-left:5px;
+	padding-left:10px;
 	font-family: Helvetica Arial Sans-Serif;
+	float: left;
 }
 nav li:hover {
 	color: red;
@@ -41,6 +42,7 @@ nav li a{
 	width: 40%;
 	padding:10px;
 	border: 5px;
+
 }
 
 .header {
@@ -55,13 +57,37 @@ nav li a{
 	display: block;
 	margin: auto;
 	width: 40%;
+
+}
+.header p{
+	width:100%;
 }
 .sign-up {
+	display: block;
+	margin: auto;
+	width:40%;
 	background-color: ;
 }
 #end{
 	padding-bottom: 10px;
 }
 .sign-up input{
-	width:50%;
+	width:100%;
+border: 2px solid black;
+border-radius: 4px;
+}
+
+.sign-up input[type=text]{
+width: 100%
+padding: 12px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: 2px solid red;
+border-radius: 4px;
+
+}
+.submit input{
+	width:15%;
+	border-color: white;
+	color: white
 }
