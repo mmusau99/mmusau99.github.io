@@ -18,7 +18,7 @@ nav{
 	padding-bottom: 10px;
 }
 nav a:hover {
-	color: #ffb3b3;
+	color: #0066ff;
 
 }
 
@@ -114,9 +114,9 @@ nav a{
     text-decoration: none;
 }
 #nav-2:hover {
-	color: #ffb3b3;
+	color: #0066ff;
 } 
 #nav-3:hover {
-	color: #ffb3b3;
+	color: #0066ff;
 } 
 }
