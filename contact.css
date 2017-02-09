@@ -14,26 +14,25 @@ display: inline;
 }
 
 nav{
-	padding-bottom: 100px;
+	padding-bottom: 50px;
 }
 nav a:hover {
-	color: red;
+	color: #ffb3b3;
 
 }
-#nav-2:visited {
-	color: #ffb3b3;
-} 
-#nav-3:visited {
-	color: #ffb3b3;
+
 } 
 nav a:link{
 	color: black;
 }
+
+
 .header {
 	display: block;
 	margin: auto;
-	width:20%;
+	width:100%;
 	font-family: helvetica;
+	text-align: center;
 
 	
 }
@@ -46,7 +45,8 @@ nav a:link{
 
 	display: block;
 	margin: auto;
-	width: 60%;
+	width: 50%;
+	
 	padding:10px;
 	border: 5px;
 
@@ -58,4 +58,28 @@ nav a:link{
 }
 .contact-list ul{
 	list-style-type:none;
+}
+@media screen and (max-width: 485px){
+nav a{
+	  list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    border: 2px solid white;
+
+}
+nav a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav-2:hover {
+	color: #ffb3b3;
+} 
+#nav-3:hover {
+	color: #ffb3b3;
+} 
 }
