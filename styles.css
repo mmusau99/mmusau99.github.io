@@ -1,40 +1,37 @@
-nav ul{
-	list-style-type: none;
+nav a{
+	
 	margin:0;
 	padding:0;
-	overflow: hidden;
+	
 
-
-
-}
-
-nav li {
-	display: inline;
+display: inline;
+	text-align: center;
+	padding: 14px 10px;
+	text-decoration:none;
+	color: black;
 	font-size: 18px;
-	padding-left:10px;
-	font-family: Helvetica Arial Sans-Serif;
-	float: left;
+
 }
-nav li:hover {
+
+nav{
+	padding-bottom: 10px;
+}
+nav a:hover {
 	color: red;
 
 }
-nav a:visited{
-	color:black;
+#nav-2:visited {
+	color: #ffb3b3;
+} 
+#nav-3:visited {
+	color: #ffb3b3;
+} 
+nav a:link{
+	color: black;
+}
 
-}
-nav a{
-	text-decoration: none;
-}
-nav{
-	background-color: 
-}
-nav li a{
-	display: block;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration:none;
-}
+
+
 .main-img img{
 
 	display: block;
@@ -58,15 +55,17 @@ nav li a{
 	margin: auto;
 	width: 40%;
 
+
 }
 .header p{
 	width:100%;
+	font-family: arial;
 }
 .sign-up {
 	display: block;
 	margin: auto;
 	width:40%;
-	background-color: ;
+	
 }
 #end{
 	padding-bottom: 10px;
@@ -75,19 +74,29 @@ nav li a{
 	width:100%;
 border: 2px solid black;
 border-radius: 4px;
+padding: 5px 5px;
+margin: 8px 0px; 
 }
 
 .sign-up input[type=text]{
-width: 100%
-padding: 12px 20px;
-margin: 8px 0;
-box-sizing: border-box;
-border: 2px solid red;
+width:100%;
+border: 2px solid black;
 border-radius: 4px;
+padding: 5px 5px;
+margin: 8px 0px; 
 
 }
 .submit input{
-	width:15%;
-	border-color: white;
-	color: white
+	width:17%;
+	border: 2px solid black;
+	color: black;
+	
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	background-color: white;
+}
+
+#pop-up:hover{
+	border-color: red;
 }
