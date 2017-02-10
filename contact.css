@@ -15,6 +15,7 @@ display: inline;
 
 nav{
 	padding-bottom: 20px;
+	position: fixed;
 }
 nav a:hover {
 	color: #0066ff;
