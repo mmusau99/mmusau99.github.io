@@ -46,7 +46,7 @@ nav a:link{
 	font-family: helvetica;
 	text-align: center;
 	background-image: url(http://res.cloudinary.com/lx9gdutds/image/upload/v1486005625/Final_LB_HEader_rqle1p.png);
-	background-size: 20%;
+	background-size: 27%;
 	background-repeat: no-repeat;
 	background-position: center;
 	padding-top: 100px;
@@ -60,7 +60,8 @@ nav a:link{
 }
 .header p{
 	width:100%;
-	font-family: arial;
+	font-family: Courier;
+	p
 }
 .sign-up {
 	display: block;
@@ -125,5 +126,9 @@ nav a{
 } 
 #nav-3:hover {
 	color: #0066ff;
+
 } 
+.header{
+	background-size: 50%;
+}
 }
