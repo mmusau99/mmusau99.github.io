@@ -61,6 +61,9 @@ nav a:link{
 .contact-list ul{
 	list-style-type:none;
 }
+.contact-list  a:visited{
+	color: #8c8c8c;
+}
 @media screen and (max-width: 485px){
 nav{
 	position: static;
