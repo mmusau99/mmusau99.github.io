@@ -45,8 +45,11 @@ nav a:link{
 	width:100%;
 	font-family: helvetica;
 	text-align: center;
-
-	
+	background-image: url(http://res.cloudinary.com/lx9gdutds/image/upload/v1486005625/Final_LB_HEader_rqle1p.png);
+	background-size: 20%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-top: 100px;
 }
 .header h1{
 	display: block;
