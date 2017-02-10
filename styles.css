@@ -61,7 +61,7 @@ nav a:link{
 .header p{
 	width:100%;
 	font-family: Courier;
-	p
+
 }
 .sign-up {
 	display: block;
@@ -90,7 +90,7 @@ margin: 8px 0px;
 }
 .submit input{
 	width:100%;
-border: 100% solid black;
+
 border-radius: 4px;
 padding: 5px 5px;
 margin: 8px 0px; 
