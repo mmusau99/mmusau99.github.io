@@ -95,7 +95,7 @@ font-size: 16px;
 }
 
 #pop-up:hover{
-	border-color: red;
+	border-color: #0066ff;
 }
 @media screen and (max-width: 485px){
 nav{
